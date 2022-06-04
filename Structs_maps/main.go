@@ -16,4 +16,5 @@ func main() {
 	fmt.Println(fam)
 	pop, ok := fam["Guillermo"]
 	fmt.Println(pop, ok)
+
 }
