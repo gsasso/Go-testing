@@ -2,19 +2,13 @@ package main
 
 import "fmt"
 
-var (
-	sex      = "Woman"
-	salary   = 70000
-	employee bool
-	unused   bool
-)
-
 // Main function
 func main() {
-	fmt.Print("The data is: ", sex, " ", salary, " ", employee)
 
-	fmt.Printf("My salary is %d", salary)
-	/*
-		Hola esto es un comentario largo
-	*/
+	a := []string{"Guillermo", "Elena", "Valeria"}
+
+	b := make([]string, 5)
+	fmt.Printf("The first slice is: %v\n", a)
+	fmt.Printf("The second slice is: %v\n", b)
+
 }
